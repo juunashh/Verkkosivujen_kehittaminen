@@ -1,0 +1,15 @@
+body {
+    font-size: x-large;
+    background-color: lightgreen;
+}
+h1 {
+    color:blue;
+}
+.h2-red {
+    color: red;
+}
+
+.logo {
+    max-width: 50%; 
+    align-self: center;
+}
