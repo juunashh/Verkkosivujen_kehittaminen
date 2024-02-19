@@ -1,0 +1,54 @@
+header,footer {
+    background-color: lightblue;
+    color: darkblue;
+    padding: 1em;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    clear:left;
+}
+
+nav {
+    background-color: black;
+    padding: 1em;
+    font-size: 15px;
+}
+
+.footernav {
+    font-size: 15px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper >div {
+    flex:1 ;
+    text-align: center;
+}
+
+section {
+    float: left;
+    width: 60%;
+    height: 230px;
+    background-color: lightcyan;
+    padding: 1em;
+
+}
+
+aside {
+    float: right;
+    width: 30%;
+    color: darkblue;
+    height: 430px;
+    padding: 1em;
+    text-align: right;
+}
+
+article {
+    float: left;
+    width: 60%;
+    height: 230px;
+    color: gray;
+    padding: 1em;
+}

@@ -12,6 +12,7 @@ p {
 div {
     border-style: dotted;
     border-width: 2px;
+    padding: 5px;
     width: 100px;
     height: 100px;
 }
