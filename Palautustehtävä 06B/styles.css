@@ -1,0 +1,98 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-heading {
+    width: 100%;
+    background-image: url("lake.jpg");
+    padding: 2em 0 2em 0;
+}
+#main-heading h1{
+    size: 2em;
+    width: fit-content;
+    margin: auto;
+    color: aliceblue;
+}
+#navigation{
+    width: 100%;
+    position: sticky;
+    background-color: rgb(20, 150, 255);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#navigation nav{
+    width: fit-content;
+    margin: auto;
+}
+#navigation ul {
+    list-style-type: none;
+}
+#navigation li {
+    display: inline;
+    padding: 0 2em 0 2em;
+    font-weight: bold;   
+}
+#navigation a {
+    text-decoration: none;
+}
+#navigation a:link {
+    color: white;
+}
+#navigation a:visited {
+    color: aliceblue;
+}
+#navigation a:hover {
+    color: red;
+}
+
+#content {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#left-sidebar {
+    position: fixed;
+    float: left;
+    background-color: aliceblue;
+    width: 12,5%;
+    height: max-content;
+    margin-right: 1em;
+    overflow: auto;
+    padding: 0.5px;
+}
+#left-sidebar li {
+    padding: 0.5em 3em 0.5em 0em;
+}
+#left-sidebar ul {
+    list-style-type: none;
+}
+
+#section {
+    color:rgb(10, 0, 50);
+    margin: auto;
+    width: 60%;
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 4px;
+    padding: 0.5em 2em 1em 2em;
+    overflow: auto;
+}
+
+#section img {
+    width: 20em;
+    margin: 1em;
+    float: right;
+}
+
+footer {
+    background-color: rgb(100, 100, 100);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+}

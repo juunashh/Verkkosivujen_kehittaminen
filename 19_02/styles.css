@@ -17,10 +17,12 @@ nav {
 body {
     background-image: url("lake.jpg");
     background-color: #fff;
+    background-repeat: repeat-x;
 }
 
 h1 {
     border: 2px solid black;
+    border-radius: 2em;
     background-color: pink;
     padding: 1em;
     margin-left: 20%;
