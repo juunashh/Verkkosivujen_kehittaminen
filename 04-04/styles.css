@@ -1,0 +1,12 @@
+table, th, td {
+    border: 1px solid black;
+    padding: 1px;
+    margin: 1px;
+}
+
+tr:first-of-type {
+    background-color: darkgrey;
+}
+tr:nth-child(even) {
+    background-color: aliceblue;
+}

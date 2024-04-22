@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>HTML taulukot ja lomakkeet</title>
+</head>
+<body>
+    <h1>HTML taulukot ja lomakkeet</h1>
+
+    <h2>HTML taulukot</h2>
+    <caption>Nimi ja ikä</caption>
+    <table>
+        <tr>
+            <th colspan="2">Nimi</th>
+            <th>Ikä</th>
+        </tr>
+        <tr>
+            <td>Joonas</td>
+            <td>Ristola</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Matti</td>
+            <td>Meikäläinen</td>
+            <td>35</td>
+        </tr>
+    </table>
+    <br>
+
+    <h2>HTML lomakkeet</h2>
+    <caption>Nimen tallennus</caption>
+    <form action="#">
+        <label for="etunimi">Etunimi:</label><br>
+        <input type="text" id="etunimi" name="etunimi"><br>
+        <label for="sukunimi">Sukunimi:</label><br>
+        <input type="text" id="sukunimi" name="sukunimi"><br>
+        <label for="ika">Syntymäaika</label><br>
+        <input type="date" id="ika" name="ika"><br>
+        <input type="submit" value="Tallenna">
+    </form>
+    <br>
+    <input type="range" name="abc" min="0" max="20"><br>
+    <select name="bcd" id="bcd">
+        <option value="">-</option>
+        <option value="1">Yksi</option>
+        <option value="2">Kaksi</option>
+    </select>
+
+</body>
+</html>
